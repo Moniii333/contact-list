@@ -38,7 +38,7 @@ export default function SelectedContact ({ personId, setPersonId }) {
         <div>Address: {contact.address.street}, {contact.address.city} {contact.address.zipcode}</div>
         <div>Website: {contact.website}</div>
         <div>Company: {contact.company.name}</div>
-        <div>Catchphrase: {contact.company.catchPhrase}</div>
+        <div>Catchphrase: "{contact.company.catchPhrase}"</div>
         <button onClick={goBack}>Go Back</button>
       </>
     )}

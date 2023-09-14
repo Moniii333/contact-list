@@ -31,7 +31,7 @@ export default function ContactList ({ setPersonId }) {
     <table>
       <thead>
         <tr>
-          <th colSpan='3'>Contact List</th>
+          <th colSpan='3' className='title'>Contact List</th>
         </tr>
       </thead>
       <tbody>
